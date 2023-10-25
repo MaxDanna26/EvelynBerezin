@@ -1,0 +1,31 @@
+{
+  "name": "evelyn-berezin",
+  "version": "1.0.0",
+  "description": "proyecto para presentacion",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "css": "gulp css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxDanna26/EvelynBerezin.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT"
+  ],
+  "author": "Maximiliano Gaspar Danna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxDanna26/EvelynBerezin/issues"
+  },
+  "homepage": "https://github.com/MaxDanna26/EvelynBerezin#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.69.4"
+  }
+}
