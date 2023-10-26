@@ -1,0 +1,32 @@
+body {
+  background-color: white;
+}
+
+.headerIMG {
+  width: 100%;
+}
+
+.infoCentral {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+
+.ImgEvelyn {
+  width: 40%;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+.aboutEvelyn {
+  margin: 1rem;
+  font-weight: bold;
+}
+
+.text {
+  width: 60%;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 5rem 1rem;
+}

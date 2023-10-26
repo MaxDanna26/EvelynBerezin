@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.timeline {
+  position: relative;
+  max-width: 600px; /* Ancho máximo reducido */
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px; /* Ancho de la línea vertical */
+  width: 2px;
+  background: #2196F3; /* Color de la línea vertical */
+}
+
+.event {
+  position: relative;
+  padding: 20px;
+  border: 2px solid #2196F3; /* Color del borde */
+  border-radius: 5px;
+  margin: 20px 0;
+  background: #E3F2FD; /* Color de fondo */
+}
+
+.event::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -10px; /* Posición del círculo */
+  width: 20px; /* Tamaño del círculo */
+  height: 20px;
+  border-radius: 50%;
+  background: #2196F3; /* Color del círculo */
+  transform: translateY(-50%);
+}
+
+.event img {
+  width: 100%; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+  margin-right: 20px; /* Espacio entre la imagen y el contenido del evento */
+}
